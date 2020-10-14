@@ -279,10 +279,10 @@ rn_temp
 >
 >  碰到 `react native haste module map` 相关的错误，也可以选择这种方式手动清缓存启动 。
 
-这时，在浏览器输入 https://127.0.0.1:8081，可以看到如下页面：
+这时，在浏览器输入 http://127.0.0.1:8081，可以看到如下页面：
 ![image](https://user-images.githubusercontent.com/9441951/55865494-13245d00-5bb1-11e9-9a97-8a785a83b584.png)
 
-输入 https://127.0.0.1:8081/rn_temp/index.bundle?platform=ios&dev=true 会触发对应终端平台的 js bundle 构建。
+输入 http://127.0.0.1:8081/rn_temp/index.bundle?platform=ios&dev=true 会触发对应终端平台的 js bundle 构建。
 
 ![image](https://user-images.githubusercontent.com/9441951/55865039-37336e80-5bb0-11e9-8aca-c121be4542f6.png)
 
